@@ -73,7 +73,7 @@ const weatherCard = new ProjectCard(
 
 const noteCard = new ProjectCard(
   "Note Taker",
-  "A full-stack application that allows the user to track their daily workouts ",
+  "This Note taker Application uses an express backend and write, save and delete note data from a JSON file.Built with HTML5, CSS/Bootstrap, JavaScript, Express.js.",
   notePic,
   "https://peaceful-meadow-49323.herokuapp.com/",
   "https://github.com/karpagasathya/note_taker"
