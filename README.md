@@ -1,5 +1,6 @@
 # React Portfolio
 ![](https://img.shields.io/badge/License-MIT-important)
+
 This is a React Application which displays my Portfolio and contact details.
 
 ## Technologies Used

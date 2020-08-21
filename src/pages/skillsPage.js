@@ -8,9 +8,9 @@ const SkillsPage=()=> {
       <>
         <h1 className="pt-5 mt-3 text-center font-details">SKILLS</h1>
         <div className="uk-child-width-1-3@m uk-grid-match" uk-grid="true" id="skills-section">
-          <SkillsCard skills={skill1} title="" icon="desktop" name="client" animate="slide-left" />
-          <SkillsCard skills={skill2} title="" icon="server" name="server" animate="slide-up" />
-          <SkillsCard skills={skill3} title="" icon="server" name="server" animate="slide-right" />
+          <SkillsCard skills={skill1} title="" icon="desktop" animate="slide-left" />
+          <SkillsCard skills={skill2} title="" icon="server"  animate="slide-up" />
+          <SkillsCard skills={skill3} title="" icon="file-edit"  animate="slide-right" />
         </div>
       </>
     );
