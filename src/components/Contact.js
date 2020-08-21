@@ -7,13 +7,31 @@ import Row from "react-bootstrap/Row";
 const ContactForm = () => {
   return (
     <div id="contact">
-      <h1 className="pt-3 text-center font-details-b pb-3">CONTACT ME</h1>
+      <h1 className="pt-4 text-center font-details-b pb-2">CONTACT ME</h1>
       <Jumbotron className="contact-jumbotron">
+        <Row className="">
+          <Col>
+            <div className="col-md">
+              <ul className="list-group list-group-flush">
+                <li className="list-group-item border-top-0">
+                  <i className="fas fa-phone-square"></i> 6128402890
+                </li>
+                <li className="list-group-item">
+                  <i class="fas fa-envelope"></i> karpagasathya@gmail.com
+                </li>
+                <li className="list-group-item">
+                  <i className="fas fa-home"></i>
+                </li>
+              </ul>
+            </div>
+          </Col>
+        </Row>
+
         <Row>
           <Col className="d-flex justify-content-center flex-wrap">
             <div className="m-2">
               <a href="mailto:karpagasathya@gmail.com" target="_blank" rel="noopener noreferrer">
-                <Button variant="outline-danger" title="akjha96@gmail.com">
+                <Button variant="outline-danger">
                   <i className="fas fa-envelope-square"></i> Email Me
                 </Button>
               </a>
@@ -27,7 +45,7 @@ const ContactForm = () => {
             </div>
             <div className="m-2">
               <a href="https://github.com/karpagasathya" target="_blank" rel="noopener noreferrer">
-                <Button variant="outline-dark" title="My other projects">
+                <Button variant="outline-light" title="My other projects">
                   <i className="fab fa-github-square"></i> GitHub
                 </Button>
               </a>
