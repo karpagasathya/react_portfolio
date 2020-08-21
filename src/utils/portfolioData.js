@@ -79,45 +79,9 @@ const noteCard = new ProjectCard(
   "https://github.com/karpagasathya/note_taker"
 );
 
-// const burgerCard = new ProjectCard(
-//   "Eat-Da-Burger",
-//   "A full-stack, restaurant application that allows the user to input, devour and delete tasty burgers from a MySQL database. Eat-Da-Burger built using MySQL, Node, Express, Handlebars and a homemade ORM.",
-//   burgerPic,
-//   "https://rocky-meadow-23943.herokuapp.com",
-//   "https://github.com/karpagasathya/MVC_Eat_Da_Burger"
-// );
 
-// const fitnessCard = new ProjectCard(
-//   "Fitness Tracker",
-//   "A full-stack application that allows the user to track their daily workouts and fitness progress. Built using JavaScript, Node, Express, MongoDB, and Mongoose.",
-//   fitnessPic,
-//   "",
-//   ""
-// );
 
-// const employeeDirCard = new ProjectCard(
-//   "Employee Directory",
-//   "An application, built with React, that allows the user to have quick and easy access to employee information. User may filter and search employees by name, and sort by name, email, DOB, and phone number.",
-//   employeeDirPic,
-//   "",
-//   ""
-// );
 
-// const booksCard = new ProjectCard(
-//   "Buy the Book",
-//   "A full-stack application that allows the user to track their daily workouts and fitness progress. Built using JavaScript, Node, Express, MongoDB, and Mongoose.",
-//   booksPic,
-//   "",
-//   ""
-// );
-
-// const todoCard = new ProjectCard(
-//   "Buy the Book",
-//   "A full-stack application that allows the user to track their daily workouts and fitness progress. Built using JavaScript, Node, Express, MongoDB, and Mongoose.",
-//   booksPic,
-//   "",
-//   ""
-// );
 
 let portfolioData = [workoutCard, employeeDirCard, burgerCard, booksCard, todoCard, weatherCard,budgetCard,noteCard];
 
