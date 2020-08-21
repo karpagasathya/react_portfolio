@@ -1,13 +1,14 @@
-const clientSide = [
+const skill1 = [
   "React",
-  "HTML",
-  "CSS",
   "JavaScript",
   "jQuery",
-  "Bootstrap, UIKit",
+  "Redux",
+  "React Router"
 ];
 
-const serverSide = ["Node.js", "Express.js", "Handlebars", "MySQL ", "Sequelize", "MongoDB"];
+const skill2 = ["Node.js", "Express.js", "Handlebars", "MySQL ", "Sequelize", "MongoDB"];
+
+const skill3 = ["HTML", "CSS", "Bootstrap", "UIKit","React-Bootstrap"];
 
 
-export { clientSide, serverSide };
+export { skill1, skill2, skill3 };
