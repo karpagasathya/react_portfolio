@@ -2,7 +2,7 @@
 import React from "react";
 import "./style.css";
 
-function PortfolioCard(props) {
+const PortfolioCard=(props)=> {
   return (
     <div>
       <div className="uk-card uk-card-default portfolio-card">

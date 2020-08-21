@@ -1,7 +1,7 @@
 import React from "react";
 import resume from "../assets/images/Karpagasathya.pdf";
 
-function ResumeModal() {
+const ResumeModal=()=> {
   console.log("coming inside resume modal")
   return (
     <div id="resume-modal" className="uk-flex-top" uk-modal="true">

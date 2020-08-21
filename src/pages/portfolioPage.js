@@ -11,7 +11,7 @@ const style = {
   },
 };
 
-function PortfolioPage() {
+const PortfolioPage=()=> {
   return (
     <>
       <div className="portfolio-container" style={style.portfolio}>

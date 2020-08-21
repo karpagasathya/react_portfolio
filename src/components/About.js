@@ -32,7 +32,7 @@ const About = () => {
                 Now I'm doing Coding Bootcamp Certification in University of Minnesota to become a Full-Stack Developer. I'm so focused and creative on developing web Applications. I love spending 
                 time with my family. I enjoy listening music, watching movies and playing board games.
                 <br />
-                Working with the clients, my goal is always driven towards providing amazing experience with the best level of quality and service to them.
+                My goal is always driven towards providing amazing experience with the best level of quality and service.
                 <br />
                 I love learning new technologies.
                 <br /> <br />

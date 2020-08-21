@@ -1,18 +1,10 @@
 import React from "react";
 import "./style.css";
 
-const style = {
-  skill: {
-    backgroundColor: "grey",
-    margin: "50px",
-    padding: "50px",
-  },
-};
 
-
-function SkillsCard(props) {
+const SkillsCard=(props)=> {
   return (
-    <div className="uk-text-center client-side-card skills-card" style={style.skill}>
+    <div className="mt-5  uk-text-center skills-card" >
       <div className={`uk-card uk-card-secondary ${props.name}-card ${props.animate}`}>
         <div className="uk-card-body">
           <h3 className="uk-card-title">{props.title}</h3>
