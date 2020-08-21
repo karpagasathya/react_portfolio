@@ -19,17 +19,17 @@ const About = () => {
           <Row className="pt-3 pb-5 align-items-center">
             <Col xs={12} md={6}>
               <Row className="justify-content-center mb-2 mr-2 ">
-                <Image className="profile justify-content-end" alt="profile" src={Profile} thumbnail fluid />
+                <Image className="profile justify-content-end myimage" alt="profile" src={Profile} thumbnail fluid />
               </Row>
             </Col>
             <Col xs={12} md={6}>
-              <Row className=" align-items-start p-2 my-details rounded">
-                Hi there! I am <strong>&nbsp;Karpagasathya Gurupandi.</strong>
+              <Row className=" align-items-start p-2 my-details rounded myname">
+                I am <strong >&nbsp;Karpagasathya Gurupandi.</strong>
                 <br />
-                I like to be called as Sathya. I was born in TamilNadu, southern part of India and grew up there. I did my Masters in Computer Applications. Currently I // live in Minneapolis,
+                I like to be called as Sathya. I was born in TamilNadu, southern part of India and grew up there. I did my Masters in Computer Applications. Currently I live in Minneapolis,
                 Minnesota.
                 <br />
-                Now I'm doing Coding Bootcamp Certification in University of Minnesota to become a Full-Stack Developer. I'm so focused and creative on developing web Applications. I love spending //
+                Now I'm doing Coding Bootcamp Certification in University of Minnesota to become a Full-Stack Developer. I'm so focused and creative on developing web Applications. I love spending 
                 time with my family. I enjoy listening music, watching movies and playing board games.
                 <br />
                 Working with the clients, my goal is always driven towards providing amazing experience with the best level of quality and service to them.

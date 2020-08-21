@@ -7,9 +7,9 @@ import "./style.css";
 const MyNavbar = () => {
   return (
     <div>
-      <Navbar fixed="top" variant="dark" expand="md" className="animate-navbar nav-theme justify-content-between">
+      <Navbar fixed="top" variant="dark" expand="md" className="nav-theme justify-content-between">
         <div>
-          <Navbar.Brand href="#home">
+          <Navbar.Brand href="#about">
             <h5>SathyaGuru</h5>
           </Navbar.Brand>
         </div>
