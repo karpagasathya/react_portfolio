@@ -1,23 +1,7 @@
-/* .nav-item {
-    font-weight: 40px;
-    color: black !important;
-    padding-bottom: 20px;
-}
-
-.uk-navbar-container{
-    height:70px;
-}
-
-.navbar {
-    background-color: transparent;
-}
-
-.nav-item:hover, .menu-icon:hover {
-    color: #fda387 !important;
-} */
 
 .footer {
-    background-color: #2c3e50d8;
+    background-color: rgba(24, 0, 112, 0.56);
+    /* background-color: #2c3e50d8; */
     padding-top: 20px;
     padding-bottom: 10px;
     color: white;
@@ -27,42 +11,36 @@
     height:50px;
 }
 
-.github-icon,.linkedin-icon,.mail-icon{
-    padding:10px;
-}
 
 #title-container {
     padding-top: 70px;
 }
 
-.subtitle {
+/* .subtitle {
     margin: 0px;
     color: #b1b1b1 !important;
     font-family: 'Montserrat', sans-serif !important;
     text-transform: uppercase;
     font-weight: 300;
-}
-
-
-/* #my-name {
-  animation: fadeInLeft;
-  animation-duration: 3s;
-}
-
-#my-sub {
-  animation: fadeInRight;
-  animation-duration: 3s;
 } */
 
+
+ 
 .nav-theme {
   border-bottom: 2px solid #aaa;
-  background-color: #2c3e50d8;
+  background-color: rgba(24, 0, 112, 0.56);
+  /* background-color: #2c3e50d8; */
   font-size: 20px;
   height:60px;
 }
 
 h5{
-    color:mediumaquamarine;
+    color: white;
+    padding-left: 20px;
+}
+
+h5:hover{
+  color:black;
 }
 
 /* .animate-navbar {
@@ -79,34 +57,42 @@ h5{
   }
 }
 
-.contact-jumbotron{
-    background-color: black;
-}
 
 
+/* About page */
 
 .about {
-  background-color: transparent;
   font-size: 1.1em;
 }
 
 .profile {
-  max-width: 18em;
+  max-width: 20em;
 }
 
 .my-details {
-  background-color: rgba(255, 255, 255, 0.747);
+    background-color: lightgray;
 }
 
+.myname {
+  animation: fadeInRight;
+  animation-duration: 2s;
+} 
 
-.custom-img {
+ .myimage {
+  animation: fadeInLeft;
+  animation-duration: 3s;
+} 
+
+
+
+/* .custom-img {
   height: 100vh;
   object-fit: cover;
-}
+} */
 
 
 
-.card-container {
+/* .card-container {
     max-width: 1000px;
     margin-top: 70px;
     padding-bottom: 100px;
@@ -127,10 +113,35 @@ h5{
 
 .mycard{
     padding-right:30px;
+} */
+
+
+/* contact page */
+
+.contact-jumbotron{
+    margin-top: 100px;
+    background-color: grey;
+}
+
+.contact-li {
+    font-size: 1rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 10px;
+    font-weight: 100;
+    color: black;
+}
+
+.contact-icon {
+    color: #fda387;
+}
+
+#contact-title {
+    padding-bottom: 40px;
+    color: black !important;
 }
 
 
-
+/* skills card */
 
 .skills-title, .portfolio-title {
     margin-bottom: 40px;
@@ -156,22 +167,112 @@ h5{
   animation-duration: 3s;
 }
 
-/* .list-group .list-group-item {
-	border-color: #61DAFB;
-} */
+@media only screen and (min-width: 960px) {
+    .design-card-footer {
+        position: absolute;
+        bottom: 0px;
+        width: 80%;
+    }
 
-.contact-jumbotron{
-    margin-top: 30px;
+    .design-card {
+        position: relative;
+    }
 }
 
-.list-group .list-group-item i {
-	position: relative;
-	top: 8px;
-	margin-right: 10px;
-	font-size: 30px;
-	line-height: 1;
-	color: #61DAFB;
-	-webkit-text-stroke-width: 0.5px;
-  -webkit-text-stroke-color: #333;
-	filter: drop-shadow(-1px 1px 1px rgba(0,0,0,0.25));
+
+
+/* portfolio page */
+
+.portfolio-container{
+    margin-top: 100px !important;
+}
+
+.pic-container {
+    position: relative;
+    height: 100%;
+}
+
+.project-description {
+    color: gray;
+    margin-top: 10px;
+}
+
+polyline {
+    fill: none;
+    color:black;
+    cursor: pointer;
+    /* color: rgb(170, 170, 170); */
+}
+
+.portfolio-card-footer {
+    border-top: none !important;
+    padding-bottom: 40px;
+}
+
+.portfolio-card-body {
+    padding-bottom: 0px;
+}
+
+.project-title {
+    padding-top: 15px;
+    margin-bottom: 0px;
+}
+
+.portfolio-btn {
+    border-radius: 20px;
+    border: 1px solid rgb(156, 231, 156);
+    color: black;
+    border: 1px solid #fda387;
+    background-color: #fda387;
+    margin-left: 12px;
+    margin-right: 12px;
+    padding: 0px 11px 0px 11px;
+    font-size: 10px;
+
+}
+
+.portfolio-btn:hover {
+    background-color: #fda387;
+    color: white;
+    border: none;
+}
+
+@media only screen and (max-width: 374px) {
+    .portfolio-card-body {
+        padding: 15px;
+    }
+
+    .project-title {
+        padding-top: 0px;
+        margin-bottom: 0px;
+    }
+} 
+
+@media only screen and (max-width: 420px) {
+    .project-description {
+        font-size: 10px;
+    }
+} 
+
+@media only screen and (min-width: 375px) {
+    .portfolio-btn {
+        margin-left: 12px;
+        margin-right: 12px;
+        padding: 0px 18px 0px 18px;
+        font-size: 12px;
+    }
+}
+
+@media only screen and (min-width: 460px) {
+
+    .portfolio-btn {
+        margin-left: 5%;
+        margin-right: 5%;
+        padding: 0px 24px 0px 24px;
+        font-size: 14px;
+    }
+
+    .project-title {
+        margin-bottom: 15px;
+    }
 }

@@ -4,11 +4,8 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import { HashRouter as Router, Route } from "react-router-dom";
 import About from './components/About';
-// import Slide from "react-reveal/Slide";
-// import Fade from "react-reveal/Fade";
-// import { Parallax } from "react-parallax";
 import Container from "react-bootstrap/Container";
-import ContactForm from './components/Contact';
+import Contact from './components/Contact';
 import PortfolioPage from './pages/portfolioPage';
 import SkillsPage from "./pages/skillsPage";
 import ResumeModal from "./components/Resume"; 
@@ -42,14 +39,9 @@ function App() {
           </div>
           <div>
             <Container className="container-box rounded">
-              <Route exact path="/contact" component={ContactForm} />
+              <Route exact path="/contact" component={Contact} />
             </Container>
           </div>
-          {/* <div>
-            <Container className="container-box rounded">
-              <Route exact path="/modal-example" component={ResumeModal} />
-            </Container>
-          </div> */}
         </div>
         <ResumeModal />
         <Footer />
