@@ -16,8 +16,8 @@ function ProjectCard(title, about, imgURL, siteURL, repoURL) {
 }
 
 const workoutCard = new ProjectCard(
-  "Fitness Tracker",
-  "An application that allows the user to track their daily workouts. ",
+  "Workout Tracker",
+  "An application for tracking your daily workouts and fitness progress. Built using Express, MongoDB, and Mongoose.",
   workoutPic,
   "https://frozen-scrubland-57003.herokuapp.com/",
   "https://github.com/karpagasathya/workout_tracker"
@@ -25,7 +25,7 @@ const workoutCard = new ProjectCard(
 
 const employeeDirCard = new ProjectCard(
   "Employee Directory",
-  "An application, built with React, that allows the user to have quick and ",
+  "An application for accessing employee information - built with React.",
   employeeDirPic,
   "https://immense-dusk-32798.herokuapp.com/",
   "https://github.com/karpagasathya/react_employee_directory"
@@ -33,7 +33,7 @@ const employeeDirCard = new ProjectCard(
 
 const burgerCard = new ProjectCard(
   "Eat-Da-Burger",
-  "A full-stack, restaurant application that allows the user to input",
+  "This Application is a burger logger in which user can create their own new burgers to devour. Built with Node.js,Express,Handlebars,MySql, ORM(Object Relational Mapping) and MVC pattern.",
   burgerPic,
   "https://rocky-meadow-23943.herokuapp.com",
   "https://github.com/karpagasathya/MVC_Eat_Da_Burger"
@@ -41,7 +41,7 @@ const burgerCard = new ProjectCard(
 
 const booksCard = new ProjectCard(
   "Buy the Book",
-  "A full-stack application that allows the user to track their daily workouts ",
+  "This Application is an online Bookstore to buy some books from six different genres. Built with Node.js,Express server,Handlebars,Sequelize and MVC pattern.",
   booksPic,
   "https://buy-the-book.herokuapp.com",
   "https://github.com/karpagasathya/buy_the_book"
@@ -49,7 +49,7 @@ const booksCard = new ProjectCard(
 
 const todoCard = new ProjectCard(
   "Inspire!",
-  "A full-stack application that allows the user to track their daily workouts ",
+  "This Application is a Inspirational Todo list which displays current Weather, date and time. Built with HTML5, CSS/Bootstrap, JavaScript/jQuery, and APIs. ",
   todoPic,
   "https://karpagasathya.github.io/Inspirational_todo/",
   "https://github.com/karpagasathya/Inspirational_todo"
@@ -57,7 +57,7 @@ const todoCard = new ProjectCard(
 
 const budgetCard = new ProjectCard(
   "PWA Budget Tracker",
-  "A full-stack application that allows the user to track their daily workouts ",
+  "A progressive web application that utilizes Service Workers, the Cache and IndexedDB to allow the user to track their budget transactions online and offline. ",
   pwaPic,
   "https://infinite-harbor-36022.herokuapp.com/",
   "https://github.com/karpagasathya/pwa_budget_tracker"
@@ -65,14 +65,14 @@ const budgetCard = new ProjectCard(
 
 const weatherCard = new ProjectCard(
   "Weather Dashboard",
-  "A full-stack application that allows the user to track their daily workouts ",
+  "This Application is a Weather Dashboard which displays certain city's current weather and 5-day forecast. Built with HTML5, CSS/Bootstrap, JavaScript/jQuery, and APIs. ",
   weatherPic,
   "https://karpagasathya.github.io/weather_dashboard/",
   "https://github.com/karpagasathya/weather_dashboard"
 );
 
 const noteCard = new ProjectCard(
-  "Weather Dashboard",
+  "Note Taker",
   "A full-stack application that allows the user to track their daily workouts ",
   notePic,
   "https://peaceful-meadow-49323.herokuapp.com/",
