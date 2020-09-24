@@ -1,8 +1,8 @@
 import React from "react";
-import resume from "../assets/images/Karpagasathya.pdf";
+import resume from "../assets/images/sathyaresume.pdf";
 
-const ResumeModal=()=> {
-  console.log("coming inside resume modal")
+const ResumeModal = () => {
+  console.log("coming inside resume modal");
   return (
     <div id="resume-modal" className="uk-flex-top" uk-modal="true">
       <div className="uk-modal-dialog uk-modal-body uk-margin-auto-vertical">
@@ -13,6 +13,6 @@ const ResumeModal=()=> {
       </div>
     </div>
   );
-}
+};
 
 export default ResumeModal;
